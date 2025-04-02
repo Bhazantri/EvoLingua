@@ -18,7 +18,7 @@ EvoLingua is an advanced, open-source PyTorch implementation of a large-scale Mi
 - **Customizability**: Configurable hyperparameters via `config.py`.
 
 ## Technical Overview
-EvoLingua is designed to emulate the scale and complexity of modern large language models (LLMs), with an estimated parameter count of up to 671 billion (37 billion active per token) when fully scaled. It leverages:
+EvoLingua is designed to emulate the scale and complexity of modern large language models (LLMs), with an estimated parameter count of up to 1 billion ( 10 million active per token) when fully scaled. It leverages:
 - **Mixture-of-Experts (MoE)**: A hybrid of shared and routed experts, with dynamic load balancing to optimize compute efficiency.
 - **Multi-head Latent Attention (MLA)**: Compresses key-value caches for reduced memory footprint while maintaining performance.
 - **Multi-Token Prediction (MTP)**: Predicts multiple future tokens in a single pass, improving generation speed and coherence.
@@ -65,7 +65,7 @@ EvoLingua is inspired by advancements in NLP research, including Mixture-of-Expe
 - **PyTorch**: 2.0+ for native FP16 and distributed support.
 - **Transformer Engine**: Enables FP8 mixed precision, reducing memory and boosting throughput.
 - **DeepSpeed**: ZeRO-3 for parameter sharding, pipeline parallelism for layer distribution.
-- **CUDA Toolkit**: Must match GPU architecture (e.g., 12.1 for H100).
+- **CUDA Toolkit**: Must match GPU architecture 
 
 #### Running the Model
 - **Small-Scale**: Use the default config for testing on a single GPU.
