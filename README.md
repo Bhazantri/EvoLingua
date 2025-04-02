@@ -8,27 +8,6 @@ EvoLingua is an open-source PyTorch implementation of a large-scale, Mixture-of-
 
 EvoLingua is an advanced, open-source PyTorch implementation of a large-scale Mixture-of-Experts (MoE) language model, inspired by cutting-edge NLP research. It integrates Multi-head Latent Attention (MLA) for efficient attention mechanisms, a custom MoE architecture with auxiliary-loss-free load balancing, and Multi-Token Prediction (MTP) for enhanced generative capabilities. Designed with modularity and scalability in mind, EvoLingua serves as a robust framework for researchers and engineers to explore state-of-the-art language modeling techniques, supporting FP8 precision, distributed training, and customizable configurations.
 
-## Table of Contents
-1. [Features](#features)
-2. [Technical Overview](#technical-overview)
-3. [Requirements](#requirements)
-   - [Hardware Requirements](#hardware-requirements)
-   - [Software Requirements](#software-requirements)
-   - [Data Requirements](#data-requirements)
-4. [Installation](#installation)
-5. [Usage](#usage)
-   - [Basic Example](#basic-example)
-   - [Training the Model](#training-the-model)
-   - [Distributed Training](#distributed-training)
-6. [Model Architecture](#model-architecture)
-   - [Multi-head Latent Attention (MLA)](#multi-head-latent-attention-mla)
-   - [Mixture-of-Experts (MoE)](#mixture-of-experts-moe)
-   - [Multi-Token Prediction (MTP)](#multi-token-prediction-mtp)
-7. [Scaling EvoLingua](#scaling-evolingua)
-8. [Evaluation](#evaluation)
-9. [Contributing](#contributing)
-10. [License](#license)
-11. [Acknowledgements](#acknowledgements)
 
 ---
 
